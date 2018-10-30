@@ -18,6 +18,7 @@
 */
 package org.apache.cordova.networkinformation;
 
+import org.elastos.trinity.dapprt.TrinityPlugin;
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaInterface;
 import org.apache.cordova.CordovaPlugin;
@@ -37,7 +38,7 @@ import android.net.NetworkInfo;
 
 import java.util.Locale;
 
-public class NetworkManager extends CordovaPlugin {
+public class NetworkManager extends TrinityPlugin {
 
     public static int NOT_REACHABLE = 0;
     public static int REACHABLE_VIA_CARRIER_DATA_NETWORK = 1;
