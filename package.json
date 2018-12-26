@@ -4,7 +4,7 @@
   "description": "Cordova Network Information Plugin",
   "types": "./types/index.d.ts",
   "cordova": {
-    "id": "cordova-plugin-network-information",
+    "id": "elastos-trinity-plugins-network-information",
     "platforms": [
       "android",
       "ios",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/apache/cordova-plugin-network-information"
+    "url": "git+https://github.com/elastos/Elastos.Trinity.Plugins.NetWorkInformation.git"
   },
   "bugs": {
     "url": "https://issues.apache.org/jira/browse/CB"
