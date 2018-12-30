@@ -20,8 +20,9 @@
 #import <Foundation/Foundation.h>
 #import <Cordova/CDVPlugin.h>
 #import "CDVReachability.h"
+#import "TrinityPlugin.h"
 
-@interface CDVConnection : CDVPlugin {
+@interface CDVConnection : TrinityPlugin {
     NSString* type;
     NSString* _callbackId;
 
