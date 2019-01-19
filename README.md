@@ -23,9 +23,9 @@ description: Get information about wireless connectivity.
 
 |AppVeyor|Travis CI|
 |:-:|:-:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/cordova-plugin-network-information?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/cordova-plugin-network-information)|[![Build Status](https://travis-ci.org/apache/cordova-plugin-network-information.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-network-information)|
+|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/elastos-trinity-plugins-network-information?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/elastos-trinity-plugins-network-information)|[![Build Status](https://travis-ci.org/apache/elastos-trinity-plugins-network-information.svg?branch=master)](https://travis-ci.org/apache/elastos-trinity-plugins-network-information)|
 
-# cordova-plugin-network-information
+# elastos-trinity-plugins-network-information
 
 
 This plugin provides an implementation of an old version of the
@@ -37,7 +37,7 @@ wifi connection, and whether the device has an internet connection.
 
 ## Installation
 
-    cordova plugin add cordova-plugin-network-information
+    cordova plugin add elastos-trinity-plugins-network-information
 
 ## Supported Platforms
 
