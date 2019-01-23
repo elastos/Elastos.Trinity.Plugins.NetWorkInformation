@@ -37,7 +37,9 @@ wifi connection, and whether the device has an internet connection.
 
 ## Installation
 
-    cordova plugin add elastos-trinity-plugins-network-information
+    cordova plugin add https://github.com/elastos/Elastos.Trinity.Plugins.NetWorkInformation.git
+
+    The plugins field of dapp manifest.json adds NetworkStatus values, such as "plugins": ["XXXX", "NetworkStatus", "XXXX"]
 
 ## Supported Platforms
 
