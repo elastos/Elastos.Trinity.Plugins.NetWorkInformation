@@ -23,7 +23,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
            id="elastos-trinity-plugins-network-information"
       version="2.0.2-dev">
 
-    <name>Network Information</name>
+    <name>NetworkStatus</name>
     <description>Cordova Network Information Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,network,information</keywords>
