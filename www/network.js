@@ -84,7 +84,9 @@ channel.onCordovaReady.subscribe(function () {
         if (channel.onCordovaConnectionReady.state !== 2) {
             channel.onCordovaConnectionReady.fire();
         }
-        console.log('Error initializing Network Connection: ' + e);
+        if (e != "The plugin:'NetworkStatus' isn't add plugin access list!!") {
+            console.log('Error initializing Network Connection: ' + e);
+        }
     });
 });
 
