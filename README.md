@@ -21,10 +21,6 @@ description: Get information about wireless connectivity.
 #         under the License.
 -->
 
-|AppVeyor|Travis CI|
-|:-:|:-:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/elastos-trinity-plugins-network-information?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/elastos-trinity-plugins-network-information)|[![Build Status](https://travis-ci.org/apache/elastos-trinity-plugins-network-information.svg?branch=master)](https://travis-ci.org/apache/elastos-trinity-plugins-network-information)|
-
 # elastos-trinity-plugins-network-information
 
 
@@ -37,16 +33,12 @@ wifi connection, and whether the device has an internet connection.
 
 ## Installation
 
-    cordova plugin add https://github.com/elastos/Elastos.Trinity.Plugins.NetWorkInformation.git
-
     The plugins field of dapp manifest.json adds NetworkStatus values, such as "plugins": ["XXXX", "NetworkStatus", "XXXX"]
 
 ## Supported Platforms
 
 - Android
-- Browser
 - iOS
-- Windows
 
 # Connection
 
@@ -106,15 +98,6 @@ eventually be removed.
 
 - <iOS7 can't detect the type of cellular network connection.
     - `navigator.connection.type` is set to `Connection.CELL` for all cellular data.
-
-### Windows Quirks
-
-- When running in the Phone 8.1 emulator, always detects `navigator.connection.type` as `Connection.ETHERNET`.
-
-### Browser Quirks
-
-- Browser can't detect the type of network connection.
-`navigator.connection.type` is always set to `Connection.UNKNOWN` when online.
 
 # Network-related Events
 
@@ -297,5 +280,5 @@ function onOffline() {
     console.log("lost connection");
 }
 ```
- 
+
 [Apache Cordova issue tracker]: https://issues.apache.org/jira/issues/?jql=project%20%3D%20CB%20AND%20status%20in%20%28Open%2C%20%22In%20Progress%22%2C%20Reopened%29%20AND%20resolution%20%3D%20Unresolved%20AND%20component%20%3D%20%22Plugin%20Network%20Information%22%20ORDER%20BY%20priority%20DESC%2C%20summary%20ASC%2C%20updatedDate%20DESC
